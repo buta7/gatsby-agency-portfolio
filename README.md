@@ -6,7 +6,7 @@ dependabotのわけのわからないbranchがたくさんできる
 
 サイト作成
 
-    $ npx gatsby new hugo-agency-portfolio https://github.com/cosmicjs/gatsby-agency-portfolio
+    $ npx gatsby new gatsby-agency-portfolio https://github.com/cosmicjs/gatsby-agency-portfolio
 
 CosmicJS(https://www.cosmicjs.com/)の管理画面(https://app.cosmicjs.com/buckets)から>Add New Bucket>Start with an App>Gatsby Agency Portfolioでバケット作成
 
@@ -24,7 +24,7 @@ Setting>Basic Settingsを参考に.envを設定
 
 サーバ起動
 
-    $ cd hugo-agency-portfolio
+    $ cd gatsby-agency-portfolio
     $ gatsby develop
 
 ## Github pagesとの連携
@@ -32,7 +32,7 @@ Setting>Basic Settingsを参考に.envを設定
 gatsby-config.js(リンクのprefixを付加:githubのレポジトリ名に設定すること)
 
     ...
-      pathPrefix: "/hugo-agency-portfolio",
+      pathPrefix: "/gatsby-agency-portfolio",
     }
 
 gatsby-config.js(上記prefixを付加してbuildしpublicディレクトリをgh-pagesブランチにプッシュ)
@@ -49,9 +49,9 @@ gh-pagesのインストール
 
     $ npm install gh-pages --save-dev
 
-GithubにRepository"hugo-agency-portfolio"を作成後
+GithubにRepository"gatsby-agency-portfolio"を作成後
 
-    $ git remote add origin git@github.com:higebobo/hugo-agency-portfolio.git
+    $ git remote add origin git@github.com:higebobo/gatsby-agency-portfolio.git
     $ git add -A
     $ git commit -m 'init'
     $ git push -u origin master
