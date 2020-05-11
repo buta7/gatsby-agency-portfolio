@@ -1,6 +1,8 @@
 # README
 
-dependabotのわけのわからないbranchがたくさんできる
+* dependabotのわけのわからないbranchがたくさんできる
+* リンクがうまく生成されない(2020/5/11)
+* netlifyやgithub pages in organizationのようにurlが/で始まるほうが向いているかも
 
 ## Setup
 
