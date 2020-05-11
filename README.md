@@ -1,5 +1,7 @@
 # README
 
+dependabotのわけのわからないbranchがたくさんできる
+
 ## Setup
 
 サイト作成
