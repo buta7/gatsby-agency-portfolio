@@ -12,7 +12,7 @@
 npx gatsby new gatsby-agency-portfolio https://github.com/cosmicjs/gatsby-agency-portfolio
 ```
 
-CosmicJS(https://www.cosmicjs.com/)の管理画面(https://app.cosmicjs.com/buckets)から>Add New Bucket>Start with an App>Gatsby Agency Portfolioでバケット作成
+[CosmicJS](https://www.cosmicjs.com/)の[管理画面](https://app.cosmicjs.com/buckets)から>Add New Bucket>Start with an App>Gatsby Agency Portfolioでバケット作成
 
 Setting>Basic Settingsを参考に.envを設定
 
@@ -23,7 +23,7 @@ COSMIC_READ_KEY=<Read Key>
 COSMIC_BUCKET_SLUG=<Bucket slug>
 ```
 
-> Personal Planに変更しておいたほうがよい
+**Personal Planに変更しておいたほうがよい**
 
 ライブラリ更新
 
