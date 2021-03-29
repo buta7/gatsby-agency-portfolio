@@ -20,7 +20,7 @@ deploy: ## Deploy on Github Pages
 	@npm run deploy
 
 dist-clean: ## Dsit clean
-	@rm -fr node_modules package-lock.json
+	@rm -fr node_modules
 
 install: dist-clean ## Install
 	@npm i
